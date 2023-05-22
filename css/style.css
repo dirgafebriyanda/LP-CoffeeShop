@@ -397,7 +397,11 @@ footer .credit a {
   }
 
   .navbar .search-form {
+<<<<<<< HEAD
     width: 75%;
+=======
+    width: 70%;
+>>>>>>> 0193ebd5a018bf3388a5a0c80247e8d6651b1ac3
     right: 9.5rem;
   }
   .about .row {
