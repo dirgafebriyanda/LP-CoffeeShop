@@ -16,7 +16,7 @@ document.addEventListener("click", function () {
     navbarNav.classList.remove("active");
 });
 document.addEventListener("click", function () {
-  if (!sb.contains(e.target) && !searchForm.contains(e.target))
+  if (!sb.contains(event.target) && !searchForm.contains(event.target))
     searchForm.classList.remove("active");
 });
 
