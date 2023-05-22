@@ -397,8 +397,8 @@ footer .credit a {
   }
 
   .navbar .search-form {
-    width: 75%;
-    right: 9.5rem;
+    width: 50%;
+    right: 10rem;
   }
   .about .row {
     flex-wrap: wrap;
