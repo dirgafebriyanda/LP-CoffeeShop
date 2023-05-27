@@ -151,7 +151,7 @@ body {
 
 .shopping-cart img {
   height: 6rem;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .shopping-cart h3 {
@@ -330,6 +330,7 @@ body {
   text-align: center;
   border: 1px solid #666;
   padding: 2rem;
+  border-radius: 10%;
 }
 
 .products .product-icon {
@@ -358,6 +359,7 @@ body {
 
 .products .product-image img {
   height: 25rem;
+  border-radius: 10%;
 }
 
 .products .product-content h3 {
@@ -400,7 +402,7 @@ body {
 
 .contact .row form {
   flex: 1 1 45rem;
-  padding: 5rem 2rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -411,14 +413,17 @@ body {
   background-color: var(--bg);
   border: 1px solid #eee;
   padding-left: 2rem;
+  border-radius: 0.5rem;
 }
 
 .contact .row form .input-group input {
   width: 100%;
-  pad: 2rem;
+  padding: 0.5rem;
   font-size: 1.7rem;
   background: none;
   color: #fff;
+  border-radius: 0.5rem;
+  border: none;
 }
 
 .contact .row .btn {
@@ -429,6 +434,10 @@ body {
   color: #fff;
   background-color: var(--primary);
   cursor: pointer;
+  border-radius: 0.5rem;
+}
+.contact .row .btn:hover {
+  background-color: #666;
 }
 
 /* footer */
